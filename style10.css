@@ -1,0 +1,16 @@
+.box {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  background-color: #eee;
+  opacity: 0.8;
+
+  /* Step 1: Add transition */
+  transition: background-color 200ms ease-in, opacity 200ms ease-in;
+}
+
+/* Step 2: Hover effect */
+.box:hover {
+  background-color: #fddb3a;
+  opacity: 1;
+}
